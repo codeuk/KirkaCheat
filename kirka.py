@@ -9,10 +9,10 @@ from rich.console import Console as c
 class Kirka:
 	""" 
 	V0.1 : 
-	COIN BOOSTING --> ✖
-	ACCOUNT LOOKUP -> ✔
-	SPAMMING TOOLS -> ✖
-	ACCOUNT STATS --> ✔
+	1. COIN BOOSTING --> ✖
+	2. ACCOUNT LOOKUP -> ✔
+	3. ACCOUNT STATS --> ✔
+	4. SPAMMING TOOLS -> ✖
 	"""
 
 	def __init__(self, AUTH=""):
@@ -61,7 +61,7 @@ class Kirka:
 			while True:
 				self.amt += 1
 				r = get(self.api, headers=self.hdrs)
-				stats = self.GetStats()
+				stats = self.GetStats(None, use_id=False)
 		
 				self.Log(
 					self.amt,
@@ -83,7 +83,6 @@ class Kirka:
 		""" Print parsed account stats from json """
 		self.ASCII()
 		stats = self.GetStats(id, use_id=True) if not me else self.GetStats(None, use_id=False)
-		print(stats)
 		email = stats['email'] if me else ''
 		table = t(title="KIRKA@~STATS")
 		table.add_column("ID",    style="white")
