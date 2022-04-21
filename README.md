@@ -36,7 +36,7 @@
       Injects KirkaCheat menu with more injectable options (Aimbot, Wallhacks, etc.)
       Bypasses IP bans
       Allows custom script injection
-      Monitors kirka network activity and displays match stats
+      Monitors kirka network activity and displays api activity
       + Lots more
 
 ![image](https://user-images.githubusercontent.com/75194878/164555285-c54ae499-bfbc-4222-a443-64a43f9f1613.png)
