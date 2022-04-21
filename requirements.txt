@@ -1,3 +1,4 @@
+free-proxy
 selenium
 colorama
 rich
