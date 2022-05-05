@@ -21,6 +21,8 @@
       Click on one of the 'notification' packets
       Scroll down to 'authorization' and copy the value
 
+- As I still haven't released my menu script, you need to enter a script you have into the CheatSlot1 variable
+
 - Run 'setup.bat' and allow for everything to be installed
 - Enter your Auth-Token into the program
 
