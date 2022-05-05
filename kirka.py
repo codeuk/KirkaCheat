@@ -199,7 +199,7 @@ class Kirka:
 		)
 
 		CheatSlot1 = """
-		// Super secret injection script ; not released yet (full menu, aimbot, wallhacks, packet holder, etc.)	
+		// PUT YOUR CHEAT SCRIPT HERE! (make sure to remove the tampermonkey stuff if you're just pasting it here :)
 		"""
 
 		CheatSlot2 = """
