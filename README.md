@@ -45,7 +45,7 @@
 
 - Account Lookup
 
-      Lookup any accounts stats/info with an ID
+      Perform a lookup on any Account using an ID
 
 - Account Stats
 
@@ -56,7 +56,7 @@
 
 - Scrape Matches
 
-      This will collect information on all ongoing matches
+      This will collect information on all on-going matches
       You can choose any region to scrape
 
 ![image](https://user-images.githubusercontent.com/75194878/164557488-1335801d-a628-4d58-b20d-a05a4228f99a.png)
